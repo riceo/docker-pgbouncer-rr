@@ -8,5 +8,7 @@ assumption that you'll define a volume that will be mapped to /etc/pgbouncer-rr 
 
 Example:
 ```
-docker run -p 5439:5439 --volume <path to pgbouncer config dir>:/etc/pgbouncer-rr <image id>
+docker run -p 5439:5439 --volume <path to pgbouncer config dir>:/etc/pgbouncer-rr riceo/docker-pgbouncer-rr:latest
 ```
+
+Questions/Comments - @riceo100 / cube@sneakybox.com
